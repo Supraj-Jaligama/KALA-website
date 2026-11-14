@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "id": "3461c850-86b8-4fd5-88a8-9d37d7693105",
+      "name": "Supraj Jaligama",
+      "email": "suprajj007@gmail.com",
+      "salt": "488c0dd488b474b282271fd27a6d1277",
+      "passwordHash": "9ec61b68e0dba7474d10884c941fff862eb8ae2e306c9137ab8172921d42a79d1b5190e95bd83e1ff0a66e80270551ce77cd4cf7a3cc2f08fc8db1cbc884ff1f",
+      "role": "artist",
+      "createdAt": "2026-11-12T07:40:12.025Z"
+    },
+    {
+      "id": "120f1583-2554-4d5d-ade8-c49571da6d8a",
+      "name": "Supraj Jaligama",
+      "email": "jaligamasuman9@gmail.com",
+      "salt": "c36f15bb6edf69ab697a64dbf06a6da7",
+      "passwordHash": "ba0d2955ea90971f98935b75a25bca57b64458d2d416857477739b7e5e224a06c9354b0ae84589cfa12cc1a55c69c54f57bd167bbd556f0608b53c3a68185038",
+      "role": "artist",
+      "createdAt": "2026-11-12T14:10:31.513Z"
+    },
+    {
+      "id": "b78c8164-a93e-4f75-a1a6-9d8da59dd55d",
+      "name": "Aneesh Jaligama",
+      "email": "jaligamaaneesh@gmail.com",
+      "salt": "eeef5a1b9a006d566ac8a932fcd4e73b",
+      "passwordHash": "85cb21067d6157bbdc125dee7d863b975a52431aebd8b2a8b0c1c8b03f10bd53064abef6c8faf3963108522a3d4a23dac5d71011fc28ba07ded8e151891bf33b",
+      "role": "user",
+      "createdAt": "2026-11-14T06:31:42.930Z"
+    }
+  ],
+  "carts": {
+    "3461c850-86b8-4fd5-88a8-9d37d7693105": [
+      110,
+      109
+    ],
+    "120f1583-2554-4d5d-ade8-c49571da6d8a": [
+      102
+    ],
+    "b78c8164-a93e-4f75-a1a6-9d8da59dd55d": []
+  },
+  "favorites": {
+    "3461c850-86b8-4fd5-88a8-9d37d7693105": [
+      108
+    ],
+    "120f1583-2554-4d5d-ade8-c49571da6d8a": [
+      1
+    ],
+    "b78c8164-a93e-4f75-a1a6-9d8da59dd55d": []
+  },
+  "messages": [
+    {
+      "id": "41e27ddf-8553-4ef0-b58e-900fa81afabd",
+      "fromUserId": "b78c8164-a93e-4f75-a1a6-9d8da59dd55d",
+      "fromName": "Aneesh Jaligama",
+      "artistName": "Supraj Jaligama",
+      "artistUserId": "3461c850-86b8-4fd5-88a8-9d37d7693105",
+      "artworkId": 1794492753068,
+      "artworkTitle": "Raja Ravi Verma",
+      "body": "would like to buy the your painting",
+      "createdAt": "2026-11-14T06:32:29.071Z",
+      "reply": null,
+      "repliedAt": null
+    }
+  ],
+  "artistProfiles": {
+    "3461c850-86b8-4fd5-88a8-9d37d7693105": {
+      "name": "Supraj Jaligama",
+      "city": "India",
+      "artForms": "",
+      "bio": ""
+    },
+    "120f1583-2554-4d5d-ade8-c49571da6d8a": {
+      "name": "Supraj Jaligama",
+      "city": "India",
+      "artForms": "",
+      "bio": ""
+    }
+  },
+  "listings": [
+    {
+      "id": 1794492753068,
+      "artistId": "120f1583-2554-4d5d-ade8-c49571da6d8a",
+      "title": "Raja Ravi Verma",
+      "artist": "Supraj Jaligama",
+      "place": "India",
+      "style": "raja ravi verma",
+      "category": "Painting",
+      "medium": "canvas",
+      "description": "Kala Store Hyderabad",
+      "price": 50000,
+      "image": "assets/uploads/artist-120f1583-2554-4d5d-ade8-c49571da6d8a-87bdf9b4-65c4-4625-aad3-1f6a74cc4360.jpg",
+      "year": "Artist listing",
+      "forSale": true,
+      "isSample": false,
+      "createdAt": "2026-11-12T14:12:33.068Z"
+    }
+  ]
+}
